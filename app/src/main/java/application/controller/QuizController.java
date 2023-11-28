@@ -1,5 +1,9 @@
 package application.controller;
 
+import java.util.Optional;  // for Optional
+import application.model.Quiz;  // replace 'application.model' with the correct package for your Quiz class
+
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

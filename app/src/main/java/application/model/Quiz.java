@@ -12,11 +12,9 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "quizzes")
 public class Quiz {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-
     private String nome;
 
     @OneToMany(mappedBy = "quiz")

@@ -10,4 +10,3 @@ public class IndexController {
         return "WEB-INF/home.jsp";
     }
 }
-
